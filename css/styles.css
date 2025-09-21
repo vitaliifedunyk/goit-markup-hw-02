@@ -5,6 +5,10 @@ body {
     background-color: #fff;
 }
 
+.header {
+    font-family: "Raleway", sans-serif;
+}
+
 .logo {
     font-family: "Raleway";
     font-weight: 700;
@@ -15,7 +19,7 @@ body {
     color: #4d5ae5;
 }
 
-span {
+.header-logo {
    color:#2e2f42;
 }
 
@@ -52,9 +56,9 @@ address {
         cursor: pointer;
 }
 
-.btn:hover
+.btn:hover,
 .btn:focus {
-background: #404bbf;
+background-color: #404BBF;
 }
 
 .contacts-link {
@@ -86,10 +90,11 @@ background: #404bbf;
 .section-titles {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .feature-title {
@@ -119,7 +124,7 @@ background: #404bbf;
 .team-name {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-align: center;
@@ -138,7 +143,7 @@ background: #404bbf;
 .portfolio-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-transform: capitalize;
@@ -160,4 +165,8 @@ background: #404bbf;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.footer-logo {
+    color: #f4f4fd;
 }
