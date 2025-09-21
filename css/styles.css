@@ -10,7 +10,7 @@ body {
 }
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -44,15 +44,10 @@ address {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        display: inline-flex;
-        align-items: center;
         justify-content: center;
-        padding: 16px 32px;
-        border-radius: 4px;
         background: #4d5ae5;
         color: #fff;
         border: 1px solid #4d5ae5;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
         cursor: pointer;
 }
 
@@ -167,6 +162,6 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
 }
 
-.footer-logo {
+.footer-span-logo {
     color: #f4f4fd;
 }
