@@ -56,7 +56,7 @@ address {
 background-color: #404BBF;
 }
 
-.contacts-link {
+.contact-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -64,8 +64,8 @@ background-color: #404BBF;
     color: #434455;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
